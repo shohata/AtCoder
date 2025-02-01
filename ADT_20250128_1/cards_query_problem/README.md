@@ -39,12 +39,14 @@ Q 個のクエリが与えられるので、順番に処理してください。
 
 入力は以下の形式で標準入力から与えられる。
 
+```
 N
 Q
-query<sub>1</sub>
-query<sub>2</sub>
+query1
+query2
 ⋮
-query<sub>Q</sub>
+queryQ
+```
 
 ただし、query<sub>q</sub> は q 個目のクエリを表しており、次のいずれかの形式で与えられる。
 
@@ -165,12 +167,14 @@ Here, note the following.
 
 The input is given from Standard Input in the following format:
 
+```
 N
 Q
-query<sub>1</sub>
-query<sub>2</sub>
+query1
+query2
 ⋮
-query<sub>Q</sub>
+queryQ
+```
 
 Here, query<sub>q</sub> denotes the q-th query, which is in one of the following formats:
 

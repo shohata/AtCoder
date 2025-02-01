@@ -29,13 +29,15 @@
 
 入力は以下の形式で標準入力から与えられる。
 
+```
 N
-A<sub>1</sub> A<sub>2</sub> … A<sub>N</sub>
+A1 A2 … AN
 Q
-query<sub>1</sub>
-query<sub>2</sub>
+query1
+query2
 ⋮
-query<sub>Q</sub>
+queryQ
+```
 
 ただし、query<sub>i</sub> は i 個目のクエリを表しており、次の形式のいずれかで与えられる。
 
@@ -190,13 +192,15 @@ Given Q queries, process them in the given order. Each query is of one of the fo
 
 The input is given from Standard Input in the following format:
 
+```
 N
-A<sub>1</sub> A<sub>2</sub> … A<sub>N</sub>
+A1 A2 … AN
 Q
-query<sub>1</sub>
-query<sub>2</sub>
+query1
+query2
 ⋮
-query<sub>Q</sub>
+queryQ
+```
 
 Here, query<sub>i</sub> denotes the i-th query, given in one of the following formats:
 
