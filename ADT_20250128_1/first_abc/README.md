@@ -14,7 +14,7 @@ S を左から 1 文字ずつ見ていったときに、はじめて次の条件
 
 ### 制約
 
--   3 \\leq N \\leq 100
+-   3 ≤ N ≤ 100
 -   S は `A`, `B`, `C` からなる長さ N の文字列
 -   S は `A`, `B`, `C` を全て含む
 
@@ -97,7 +97,7 @@ If the characters of S are checked one by one from the left, how many characters
 
 ### Constraints
 
--   3 \\leq N \\leq 100
+-   3 ≤ N ≤ 100
 -   S is a string of length N consisting of `A`, `B`, and `C`.
 -   S contains all of `A`, `B`, and `C`.
 

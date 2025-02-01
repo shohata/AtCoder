@@ -6,20 +6,20 @@
 
 ### 問題文
 
-整数 N と長さ N の数列 A=(A~1~,A~2~,…,A~N~) が与えられます。
+整数 N と長さ N の数列 A=(A<sub>1</sub>,A<sub>2</sub>,…,A<sub>N</sub>) が与えられます。
 
 クエリが Q 個与えられるので、与えられた順番に処理してください。 クエリは次の 2 種類のいずれかです。
 
--   `1 k x` : A~k~ の値を x に変更する。
--   `2 k` : A~k~ の値を出力する。
+-   `1 k x` : A<sub>k</sub> の値を x に変更する。
+-   `2 k` : A<sub>k</sub> の値を出力する。
 
 ### 制約
 
--   1 ≤ N ≤ 10^5^
--   1 ≤ Q ≤ 10^5^
--   0 ≤ A~i~ ≤ 10^9^ (1 ≤ i ≤ N)
+-   1 ≤ N ≤ 10<sup>5</sup>
+-   1 ≤ Q ≤ 10<sup>5</sup>
+-   0 ≤ A<sub>i<sub> ≤ 10<sup>9</sup> (1 ≤ i ≤ N)
 -   どのクエリについても、1 ≤ k ≤ N
--   1 番目の形式のクエリについて、0 ≤ x ≤ 10^9^
+-   1 番目の形式のクエリについて、0 ≤ x ≤ 10<sup>9</sup>
 -   2 番目の形式のクエリが 1 つ以上存在する
 -   入力はすべて整数
 
@@ -30,14 +30,14 @@
 入力は以下の形式で標準入力から与えられる。
 
 N
-A~1~ A~2~ … A~N~
+A<sub>1</sub> A<sub>2</sub> … A<sub>N</sub>
 Q
-query~1~
-query~2~
+query<sub>1</sub>
+query<sub>2</sub>
 ⋮
-query~Q~
+query<sub>Q</sub>
 
-ただし、query~i~ は i 個目のクエリを表しており、次の形式のいずれかで与えられる。
+ただし、query<sub>i</sub> は i 個目のクエリを表しており、次の形式のいずれかで与えられる。
 
 ```
 1 k x
@@ -80,13 +80,13 @@ query~Q~
 
 はじめ、A=(1,3,5) です。
 
--   1 つめのクエリにおいて、A=(1,3,5) です。A~2~=3 なので、3 を出力します。
--   2 つめのクエリにおいて、A=(1,3,5) です。A~3~=5 なので、5 を出力します。
--   3 つめのクエリでは、A~3~ の値を 0 に変更し、A=(1,3,0) となります。
--   4 つめのクエリにおいて、A=(1,3,0) です。A~3~=0 なので、0 を出力します。
--   5 つめのクエリでは、A~2~ の値を 8 に変更し、A=(1,8,0) となります。
--   6 つめのクエリにおいて、A=(1,8,0) です。A~2~=8 なので、8 を出力します。
--   7 つめのクエリにおいて、A=(1,8,0) です。A~1~=1 なので、1 を出力します。
+-   1 つめのクエリにおいて、A=(1,3,5) です。A<sub>2</sub>=3 なので、3 を出力します。
+-   2 つめのクエリにおいて、A=(1,3,5) です。A<sub>3</sub>=5 なので、5 を出力します。
+-   3 つめのクエリでは、A<sub>3</sub> の値を 0 に変更し、A=(1,3,0) となります。
+-   4 つめのクエリにおいて、A=(1,3,0) です。A<sub>3</sub>=0 なので、0 を出力します。
+-   5 つめのクエリでは、A<sub>2</sub> の値を 8 に変更し、A=(1,8,0) となります。
+-   6 つめのクエリにおいて、A=(1,8,0) です。A<sub>2</sub>=8 なので、8 を出力します。
+-   7 つめのクエリにおいて、A=(1,8,0) です。A<sub>1</sub>=1 なので、1 を出力します。
 
 ---
 
@@ -167,20 +167,20 @@ Score : 200 points
 
 ### Problem Statement
 
-You are given an integer N and a sequence A=(A~1~,A~2~,…,A~N~) of length N.
+You are given an integer N and a sequence A=(A<sub>1</sub>,A<sub>2</sub>,…,A<sub>N</sub>) of length N.
 
 Given Q queries, process them in the given order. Each query is of one of the following two kinds:
 
--   `1 k x` : set the value A~k~ to x.
--   `2 k` : print the value A~k~.
+-   `1 k x` : set the value A<sub>k</sub> to x.
+-   `2 k` : print the value A<sub>k</sub>.
 
 ### Constraints
 
--   1 ≤ N ≤ 10^5^
--   1 ≤ Q ≤ 10^5^
--   0 ≤ A~i~ ≤ 10^9^ (1 ≤ i ≤ N)
+-   1 ≤ N ≤ 10<sup>5</sup>
+-   1 ≤ Q ≤ 10<sup>5</sup>
+-   0 ≤ A<sub>i</sub> ≤ 10<sup>9</sup> (1 ≤ i ≤ N)
 -   1 ≤ k ≤ N for all queries.
--   0 ≤ x ≤ 10^9^ for all queries of the first kind.
+-   0 ≤ x ≤ 10<sup>9</sup> for all queries of the first kind.
 -   There is at least one query of the second kind.
 -   All values in the input are integers.
 
@@ -191,14 +191,14 @@ Given Q queries, process them in the given order. Each query is of one of the fo
 The input is given from Standard Input in the following format:
 
 N
-A~1~ A~2~ … A~N~
+A<sub>1</sub> A<sub>2</sub> … A<sub>N</sub>
 Q
-query~1~
-query~2~
+query<sub>1</sub>
+query<sub>2</sub>
 ⋮
-query~Q~
+query<sub>Q</sub>
 
-Here, query~i~ denotes the i-th query, given in one of the following formats:
+Here, query<sub>i</sub> denotes the i-th query, given in one of the following formats:
 
 ```
 1 k x
@@ -241,13 +241,13 @@ Print q lines, where q is the number of queries of the second kind. The j-th (1 
 
 Initially, A=(1,3,5).
 
--   For the 1-st query, A=(1,3,5), where A~2~=3, so 3 should be printed.
--   For the 2-nd query, A=(1,3,5), where A~3~=5, so 5 should be printed.
--   The 3-rd query sets the value A~3~ to 0, making A=(1,3,0).
--   For the 4-th query, A=(1,3,0), where A~3~=0, so 0 should be printed.
--   The 5-th query sets the value A~2~ to 8, making A=(1,8,0).
--   For the 6-th query, A=(1,8,0), where A~2~=8, so 8 should be printed.
--   For the 7-th query, A=(1,8,0), where A~1~=1, so 1 should be printed.
+-   For the 1-st query, A=(1,3,5), where A<sub>2</sub>=3, so 3 should be printed.
+-   For the 2-nd query, A=(1,3,5), where A<sub>3</sub>=5, so 5 should be printed.
+-   The 3-rd query sets the value A<sub>3</sub> to 0, making A=(1,3,0).
+-   For the 4-th query, A=(1,3,0), where A<sub>3</sub>=0, so 0 should be printed.
+-   The 5-th query sets the value A<sub>2</sub> to 8, making A=(1,8,0).
+-   For the 6-th query, A=(1,8,0), where A<sub>2</sub>=8, so 8 should be printed.
+-   For the 7-th query, A=(1,8,0), where A<sub>1</sub>=1, so 1 should be printed.
 
 ---
 

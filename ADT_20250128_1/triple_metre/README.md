@@ -10,7 +10,7 @@
 
 -   T の i 文字目から j 文字目までを順番を変えずに抜き出してできる文字列が S と一致する。
 
-文字列 T を `oxx` を 10^5^ 個結合した文字列として定めます。
+文字列 T を `oxx` を 10<sup>5</sup> 個結合した文字列として定めます。
 文字列 S が与えられるので、 S が T の部分文字列である場合は `Yes` を、そうでない場合は `No` を出力してください。
 
 ### 制約
@@ -89,7 +89,7 @@ A string S is said to be a substring of a string T when there is a pair of integ
 
 -   The extraction of the i-th through j-th characters of T without changing the order equals S.
 
-Let T be the concatenation of 10^5^ copies of `oxx`.
+Let T be the concatenation of 10<sup>5</sup> copies of `oxx`.
 Given a string S, print `Yes` if S is a substring of T, and `No` otherwise.
 
 ### Constraints

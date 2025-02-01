@@ -20,17 +20,17 @@ Q 個のクエリが与えられるので、順番に処理してください。
 
 ### 制約
 
--   1 ≤ N, Q ≤ 2 × 10^5^
+-   1 ≤ N, Q ≤ 2 × 10<sup>5</sup>
 -   1 番目の形式のクエリについて、
-    -   1 ≤ i ≤ 2 × 10^5^
+    -   1 ≤ i ≤ 2 × 10<sup>5</sup>
     -   1 ≤ j ≤ N
 -   2 番目の形式のクエリについて、
     -   1 ≤ i ≤ N
     -   このクエリが与えられる時点で箱 i にカードが入っている
 -   3 番目の形式のクエリについて、
-    -   1 ≤ i ≤ 2 × 10^5^
+    -   1 ≤ i ≤ 2 × 10<sup>5</sup>
     -   このクエリが与えられる時点で数 i が書かれたカードが入っている箱が存在する
--   出力するべき数は合計で 2 × 10^5^ 個以下
+-   出力するべき数は合計で 2 × 10<sup>5</sup> 個以下
 -   入力はすべて整数
 
 ---
@@ -41,12 +41,12 @@ Q 個のクエリが与えられるので、順番に処理してください。
 
 N
 Q
-query~1~
-query~2~
+query<sub>1</sub>
+query<sub>2</sub>
 ⋮
-query~Q~
+query<sub>Q</sub>
 
-ただし、query~q~ は q 個目のクエリを表しており、次のいずれかの形式で与えられる。
+ただし、query<sub>q</sub> は q 個目のクエリを表しており、次のいずれかの形式で与えられる。
 
 ```
 1 i j
@@ -146,17 +146,17 @@ Here, note the following.
 
 ### Constraints
 
--   1 ≤ N, Q ≤ 2 × 10^5^
+-   1 ≤ N, Q ≤ 2 × 10<sup>5</sup>
 -   For a query of the first kind:
-    -   1 ≤ i ≤ 2 × 10^5^
+    -   1 ≤ i ≤ 2 × 10<sup>5</sup>
     -   1 ≤ j ≤ N
 -   For a query of the second kind:
     -   1 ≤ i ≤ N
     -   Box i contains some cards when this query is given.
 -   For a query of the third kind:
-    -   1 ≤ i ≤ 2 × 10^5^
+    -   1 ≤ i ≤ 2 × 10<sup>5</sup>
     -   Some boxes contain a card with the number i when this query is given.
--   At most 2 × 10^5^ numbers are to be reported.
+-   At most 2 × 10<sup>5</sup> numbers are to be reported.
 -   All values in the input are integers.
 
 ---
@@ -167,12 +167,12 @@ The input is given from Standard Input in the following format:
 
 N
 Q
-query~1~
-query~2~
+query<sub>1</sub>
+query<sub>2</sub>
 ⋮
-query~Q~
+query<sub>Q</sub>
 
-Here, query~q~ denotes the q-th query, which is in one of the following formats:
+Here, query<sub>q</sub> denotes the q-th query, which is in one of the following formats:
 
 ```
 1 i j

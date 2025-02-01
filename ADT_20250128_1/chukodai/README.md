@@ -13,8 +13,8 @@ S の先頭から a 文字目と b 文字目を入れ替えて得られる文字
 ### 制約
 
 -   S は英小文字からなる文字列
--   S の長さ |S| は、 2 \\leq |S| \\leq 10 を満たす
--   1 \\leq a < b \\leq |S|
+-   S の長さ |S| は、 2 ≤ |S| ≤ 10 を満たす
+-   1 ≤ a < b ≤ |S|
 -   a, b は整数
 
 ---
@@ -94,8 +94,8 @@ Swap the a\-th and b\-th characters from the beginning of S and print the result
 ### Constraints
 
 -   S is a string consisting of lowercase English letters.
--   The length of S, |S|, satisfies 2 \\leq |S| \\leq 10.
--   1 \\leq a < b \\leq |S|
+-   The length of S, |S|, satisfies 2 ≤ |S| ≤ 10.
+-   1 ≤ a < b ≤ |S|
 -   a and b are integers.
 
 ---
